@@ -3,7 +3,7 @@ function nn = ANNF_init(a, b, w, s, params)
 % a        target image
 % b        source image
 % w        patch width
-% s       downsampling factor 
+% s        downsampling factor 
 % params   rd-tree config params
 % -> nn    initial ANNF
     

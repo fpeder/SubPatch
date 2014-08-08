@@ -4,6 +4,7 @@ function nn = ANNF_propagate(nn, a, b, w, niter)
 % b      source image
 % w      patch width 
 % niter  #propagation
+% -> nn  ANNF
 
     xy = int32(nn(:, :, 1:2));
     d = int32(nn(:, :, 3));
