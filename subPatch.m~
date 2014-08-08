@@ -1,0 +1,8 @@
+function nn = pedeMatch(a, b, P, d, niter, params)
+% function nn = pedeMatch(a, b, P, d, niter, params)
+
+nn = bfm2(a, b, P, d, params);
+nn = interpNn(nn, d);
+nn = improveNn(nn, a, b, P, niter);
+
+end
